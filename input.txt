@@ -1,0 +1,10 @@
+Num Blocks: 20
+Num Rows: 4
+Num Block Yards: 6
+Num Block Ground: 6
+Num Block River: 8
+Num houses of each Block Yard: 14
+Num trees of each Block Ground: 28
+The time (0-24) to view Thermal Map: 19
+
+
