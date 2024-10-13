@@ -83,10 +83,10 @@ The simulation will generate a thermal map at the specified time in the configur
 Once the simulation completes, you will see both an RGB and thermal visualization of the blocks. These visualizations provide insights into the thermal dynamics across different regions of your simulation.
 
 - Time: 19.00h
-  ![Example Output](./map_19.00h.png)
+  ![Example Output](./result/map_19.00h.png)
 
 - Simulation:
-  ![Example Simulation](./thermal_view_animation.gif)
+  ![Example Simulation](./result/thermal_view_animation.gif)
 
 ## 🌟 Key Scripts
 
