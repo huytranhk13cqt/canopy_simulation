@@ -68,7 +68,7 @@ def generate_and_display_views(blocks, block_size, map_shape, num_blocks, time):
     cbar.ax.tick_params(labelsize=8)
 
     fig.suptitle(f"Map with {num_blocks} blocks", fontsize=14)
-    plt.savefig(f"map_{time:.2f}h.png", dpi=300)
+    plt.savefig(f"./result/map_{time:.2f}h.png", dpi=300)
     plt.show()
 
 
@@ -131,7 +131,7 @@ def animate_thermal_view_func(blocks, block_size, map_shape, num_blocks):
     anim = FuncAnimation(fig, update, frames=240, interval=60, blit=True)
     
     # Save the animation as a GIF file
-    anim.save('thermal_view_animation.gif', writer='pillow', fps=30)
+    anim.save('./result/thermal_view_animation.gif', writer='pillow', fps=30)
 
     plt.tight_layout()
     plt.show()
